@@ -1,0 +1,233 @@
+[
+{
+    "model": "core.category",
+    "pk": 1,
+    "fields": {
+        "name": "WEB DEVELOPPEMENT",
+        "title": null,
+        "description": "",
+        "icon": "images/categories/dev.svg"
+    }
+},
+{
+    "model": "core.category",
+    "pk": 2,
+    "fields": {
+        "name": "WEB DESIGN",
+        "title": null,
+        "description": "",
+        "icon": "images/categories/design.svg"
+    }
+},
+{
+    "model": "core.category",
+    "pk": 3,
+    "fields": {
+        "name": "WEB MARKETING",
+        "title": null,
+        "description": "",
+        "icon": "images/categories/marketing.svg"
+    }
+},
+{
+    "model": "core.service",
+    "pk": 1,
+    "fields": {
+        "name": "E-commerce",
+        "slug": "e-commerce",
+        "title": "Obtenez un site e-commerce sur mesure : Choisissez les options que vous souhaitez et un design a votre image",
+        "photo": "",
+        "image": "images/services/e-com_2WgeCa5.svg",
+        "category": 1,
+        "description": "",
+        "icon": "fas fa-shopping-cart",
+        "priority": 1,
+        "to_home_page": false,
+        "to_footer": true
+    }
+},
+{
+    "model": "core.service",
+    "pk": 2,
+    "fields": {
+        "name": "Applications web",
+        "slug": "applications-web",
+        "title": "Mais alors, qu'est ce qui le differencie d'un site web ?",
+        "photo": "",
+        "image": "images/services/1.svg",
+        "category": 1,
+        "description": "<p><span style=\"font-size: 18pt;\"><strong>Qu'est ce qu'une application web ?</strong></span></p>\r\n<p>Une application web est l'quivalent d'une application mobile standard sauf qu'elle n'a pas besoin d'&eacute;tre t&eacute;l&eacute;charg&eacute;e ou install&eacute;e. Il suffit d'acc&eacute;der &agrave; internet pour s'y connecter, l'avantage est de gagner en performance et en rapidit&eacute; et d'avoir une vision claire et globale en temps r&eacute;el sur votre entreprise.</p>\r\n<p><br /><span style=\"font-size: 18pt;\"><strong>Mais alors, qu'est ce qui est diff&eacute;rent d'un site web ?</strong></span></p>\r\n<p><br />Souvent, on confond site web et application web :<br /><br />- Le r&ocirc;le principal d'un site web est de pr&eacute;senter de l'information aux visiteurs. Il peut s'agir par exemple d'un blog ou d'un site d'information sur une entreprise.<br />- Une application web permet &agrave; ses utilisateurs d'accomplir des t&acirc;ches sp&eacute;cifiques, exemple : Gmail, ou m&ecirc;me Viber qui a sa propre application web et qui fournit les m&ecirc;mes services que l'application mobile.<br /><br /></p>",
+        "icon": "fas fa-solid fa-laptop-code",
+        "priority": 2,
+        "to_home_page": false,
+        "to_footer": false
+    }
+},
+{
+    "model": "core.service",
+    "pk": 3,
+    "fields": {
+        "name": "Design d'Interfaces",
+        "slug": "design-interfaces",
+        "title": "Qu'est ce que le design d'Interfaces ?",
+        "photo": "",
+        "image": "images/services/4_GFH9KT8.svg",
+        "category": 2,
+        "description": "<p><span style=\"font-size: 18pt;\"><strong>Qu'est ce que le design d'Interfaces ?</strong></span></p>\r\n<p><br />Appel&eacute;&eacute;galement conception d'interfaces web; signifie globalement les d&eacute;tails tels que: l'architecture du site, l'organisation des pages, l'organisation de volets, la navigation sur le site en prenant en compte les contraintes sp&eacute;cifiques du support souhait&eacute; notamment en termes d'ergonomie, d'utilisabilit&eacute;; et d'accessibilit&eacute;.</p>\r\n<p><br /><span style=\"font-size: 18pt;\"><strong>Ce que nous faisons :</strong></span></p>\r\n<p><br />dans le soucis de fournir une experience de navigation optimale et surtout agr&eacute;able, nous incluons le design graphique, la cr&eacute;ation de contenu pour chaque site, le design d'exprience utilisateur (UX), l'optimisation pour les moteurs de recherche afin qu'il soit trouvable rapidement sur internet, et la r&eacute;colte de donn&eacute;es pour analyser le profil des prospects qui y naviguent, leur temps pass&eacute;e; sur le site, les articles consult&eacute;s et m&ecirc;me des donn&eacute;es sur leurs pr&eacute;f&eacute;rences, mettant ainsi tous les atouts en votre faveur.</p>\r\n<p><br /><span style=\"font-size: 18pt;\"><strong>Ce que vous y gagnez !</strong></span></p>\r\n<p><br />cultiver son image virtuelle grace &agrave; un design agr&eacute;able et commode, vous assure la p&eacute;rennit&eacute; ; des utilisateurs et accroit le montant de vos ventes.<br /><br /></p>",
+        "icon": "fas fa-solid fa-pen",
+        "priority": 3,
+        "to_home_page": false,
+        "to_footer": false
+    }
+},
+{
+    "model": "core.service",
+    "pk": 4,
+    "fields": {
+        "name": "Campagnes Publicitaires",
+        "slug": "campagnes-publicitaires",
+        "title": "créer une solide image de marque et d’assurer une bonne présence en ligne.",
+        "photo": "",
+        "image": "images/services/3.svg",
+        "category": 3,
+        "description": "<p><span style=\"font-size: 18pt;\"><strong>Qu'est ce que c'est ?</strong></span></p>\r\n<p><br />Les campagnes publicitaires en ligne permettent de toucher une grande audience et de g&amp;eacute;n&amp;eacute;rer des leads vers votre site et vos services, l&amp;rsquo;utilisation des r&eacute;seaux sociaux permet de rester &agrave; l'affut des besoins de vos clients et de rester proche de votre communaut&eacute;.</p>\r\n<p><br /><span style=\"font-size: 18pt;\"><strong>Ce que vous y gagnez !</strong></span></p>\r\n<p><br />Nous proposons des campagnes publicitaires sur 15 jours avec une &eacute;tude marketing pour d&eacute;inir les cibles, le march&eacute; et les besoins, ainsi que des publications travaill&eacute;es pour attirer l'audience vis&eacute;e, et de les rediriger vers l'entreprise, notre objectifs est d'atteindre des taux de conversion importants pour convertir le plus de prospects cibl&eacute;s en clients.</p>",
+        "icon": "fas fa-bullhorn",
+        "priority": 4,
+        "to_home_page": false,
+        "to_footer": false
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 5,
+    "fields": {
+        "name": "Manar BOUTOUATOU",
+        "phone": "0553961612",
+        "email": "m.boutouatou@octopus-consulting.com",
+        "subject": "fffgggggg",
+        "message": "ggggggggg",
+        "date_sent": "2022-06-12T09:01:31.623Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 6,
+    "fields": {
+        "name": "BOUAMRA MOHAMED CHAWKI",
+        "phone": "0555664933",
+        "email": "contact.chawkibouamra@gmail.com",
+        "subject": "xccc",
+        "message": "dddddddddddddd",
+        "date_sent": "2022-06-12T09:02:12.224Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 7,
+    "fields": {
+        "name": "BOUAMRA MOHAMED CHAWKI",
+        "phone": "0555664933",
+        "email": "contact.chawkibouamra@gmail.com",
+        "subject": "hello",
+        "message": "ezhjoinjgtz\" pijdf, z pjkfipz,jfz",
+        "date_sent": "2022-06-12T09:04:45.461Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 8,
+    "fields": {
+        "name": "BOUAMRA MOHAMED CHAWKI",
+        "phone": "0555664933",
+        "email": "contact.chawkibouamra@gmail.com",
+        "subject": "qscsqc",
+        "message": "sdddd",
+        "date_sent": "2022-06-12T09:07:48.756Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 9,
+    "fields": {
+        "name": "Manar BOUTOUATOU",
+        "phone": "0553961612",
+        "email": "m.boutouatou@octopus-consulting.com",
+        "subject": "ffffddddddd",
+        "message": "eeeeeeeeeeeeee",
+        "date_sent": "2022-06-12T09:09:06.954Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 10,
+    "fields": {
+        "name": "BOUAMRA MOHAMED CHAWKI",
+        "phone": "0555664933",
+        "email": "contact.chawkibouamra@gmail.com",
+        "subject": "xsssssssss",
+        "message": "sssssssssss",
+        "date_sent": "2022-06-12T09:11:10.158Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 11,
+    "fields": {
+        "name": "BOUAMRA MOHAMED CHAWKI",
+        "phone": "0555664933",
+        "email": "contact.chawkibouamra@gmail.com",
+        "subject": "xccc",
+        "message": "dfvgzrgvzvgz",
+        "date_sent": "2022-06-12T09:11:44.162Z"
+    }
+},
+{
+    "model": "core.contact",
+    "pk": 12,
+    "fields": {
+        "name": "test",
+        "phone": "055396126121",
+        "email": "test@test.com",
+        "subject": "teeest sujet",
+        "message": "test message",
+        "date_sent": "2022-06-13T07:56:47.380Z"
+    }
+},
+{
+    "model": "core.quote",
+    "pk": 1,
+    "fields": {
+        "name": "Celui qui n'a pas d'objectifs, ne risque pas de les atteindre.",
+        "actif": true,
+        "autor": "Sun Tzu",
+        "function": "Général chinois",
+        "image": "images/suntzu.jpg"
+    }
+},
+{
+    "model": "core.quote",
+    "pk": 2,
+    "fields": {
+        "name": "Face au monde qui change. Il vaut mieux penser le changement que changer le pansement",
+        "actif": true,
+        "autor": "FRANCIS BLANCHE",
+        "function": "Auteur",
+        "image": "images/0682526001490439624.jpg"
+    }
+},
+{
+    "model": "core.client",
+    "pk": 1,
+    "fields": {
+        "name": "ACM",
+        "logo": "images/clients/acm.png"
+    }
+},
+{
+    "model": "core.article",
+    "pk": 1,
+    "fields": {
+        "title": "Lorem Ipsum",
+        "slug": "lorem-ipsum",
+        "aperçu": "Le Lorem Ipsum est simplement du faux texte employé dans la composition",
+        "chapo": 
